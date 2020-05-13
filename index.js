@@ -1,3 +1,3 @@
 function canvi() {
-  document.body.style.background = red;
+  document.body.style.backgroundColor = "#AA0000";
 }
