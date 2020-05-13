@@ -1,8 +1,10 @@
 function canvi() {
   alert("Holaaa");
-  var numero = 1;
-  while (numero = 1) {
+  var i = 1;
+  while (i = 1) {
     document.body.style.backgroundColor = "#AA0000";
+    i++;
+
   }
 
 }
