@@ -8,6 +8,7 @@ function canvi() {
     document.body.style.backgroundColor = "#00AA00";
     id.text = 1;
     setTimeout(canvi(), 1000);
+
   }
 
 }
