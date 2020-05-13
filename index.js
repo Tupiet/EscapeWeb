@@ -1,5 +1,5 @@
 function canvi() {
-
+  document.body.style.backgroundColor = "#AA0000";
   if (document.body.style.backgroundColor == "#AA0000") {
     //alert("AA0000");
     document.body.style.backgroundColor = "#00AA00";
