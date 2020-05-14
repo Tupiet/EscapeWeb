@@ -11,4 +11,5 @@ body {
   border-style: solid;
   border-color: yellow;
   background-color: green;
+  display: flex;
 }
