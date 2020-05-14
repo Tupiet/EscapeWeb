@@ -1,10 +1,10 @@
 var i = 0;
 
 function canvi() {
-  var doc = document.body;
-  var color = ["#aa0000", "#000075"];
-  doc.style.backgroundColor = color[i];
-  i = (i + 1) % color.length;
+  var bodyBack = document.body;
+  var colorBody = ["#aa0000", "#000075"];
+  bodyBack.style.backgroundColor = colorBody[i];
+  i = (i + 1) % colorBody.length;
 }
 
 setInterval(canvi, 1000);

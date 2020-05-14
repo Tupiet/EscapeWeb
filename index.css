@@ -6,9 +6,9 @@ body {
   background-color: #faf5de;
 }
 
-.virusAlert {
+#virusAlert {
   text-align: center;
   border-style: solid;
-  border-color: yellow;
+  border-color: white;
   background-color: green;
 }
