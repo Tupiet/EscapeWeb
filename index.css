@@ -12,4 +12,5 @@ body {
   border-color: yellow;
   background-color: green;
   width: 40%;
+  align-content: center;
 }
