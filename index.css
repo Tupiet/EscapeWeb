@@ -9,6 +9,7 @@ body {
 #virusAlert {
   text-align: center;
   border-style: solid;
-  border-color: green;
+  border-color: yellow;
   width: 40%;
+  margin-left: 30%;
 }
