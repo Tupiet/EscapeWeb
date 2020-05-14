@@ -7,5 +7,6 @@ body {
 }
 
 .virusAlert {
+  text-align: center;
   border-style: solid;
 }
