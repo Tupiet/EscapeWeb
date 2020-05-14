@@ -1,6 +1,11 @@
 p {
-font-family: pacifico, cursive;
+  font-family: pacifico, cursive;
 }
+
 body {
   background-color: #faf5de;
-  }
+}
+
+.virusAlert {
+  border-color: yellow;
+}
