@@ -1,3 +1,3 @@
 function alertVirus() {
-  alert("ESTÁS INFECTADO");
+  alert("EL VIRUS SE HA DESCARGADO CORRECTAMENTE");
 }
