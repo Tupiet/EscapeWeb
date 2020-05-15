@@ -6,3 +6,7 @@ body {
   background-color: rgb(255, 253, 233);
   padding-left: 10px;
 }
+
+#start {
+  display: none;
+}
