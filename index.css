@@ -3,6 +3,10 @@ p {
   font-size: 20px;
 }
 
+h1 {
+  font-family: 'Itim', cursive;
+}
+
 body {
   background-color: rgb(255, 253, 233);
   padding-left: 10px;
