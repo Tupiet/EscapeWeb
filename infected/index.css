@@ -4,6 +4,10 @@ p {
   color: white;
 }
 
+a {
+  color: yellow;
+}
+
 body {
   background-color: #aa0000;
 }
