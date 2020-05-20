@@ -13,11 +13,6 @@ body {
   text-align: center;
 }
 
-a {
-  background-color: rgb(166, 255, 247);
-  border-radius: 5px;
-}
-
 #start {
   display: none;
 }
