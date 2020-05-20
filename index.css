@@ -25,7 +25,7 @@ body {
   color: rgb(5, 50, 82);
   background-image: url("fondo.png");
   opacity: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid #0016b0;
 }
 
