@@ -16,3 +16,23 @@ body {
 #start {
   display: none;
 }
+
+.boton_personalizado {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(5, 50, 82);
+  background-image: url("fondo.png");
+  opacity: 100%;
+  border-radius: 20px;
+  border: 2px solid #0016b0;
+}
+
+.boton_personalizado:hover {
+  color: rgb(214, 39, 39);
+  background-color: #ffffff;
+  background-image: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
