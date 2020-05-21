@@ -5,6 +5,7 @@ p {
 
 h1 {
   font-family: 'Itim', cursive;
+  padding-top: 20px;
 }
 
 body {
@@ -15,4 +16,24 @@ body {
 
 #start {
   display: none;
+}
+
+.boton_personalizado {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(5, 50, 82);
+  background-color: rgb(178, 226, 230);
+  opacity: 100%;
+  border-radius: 15px;
+  border: 2px solid #0016b0;
+}
+
+.boton_personalizado:hover {
+  color: rgb(214, 39, 39);
+  background-color: #ffffff;
+  background-image: none;
+  cursor: pointer;
+  transition: 0.3s;
 }
