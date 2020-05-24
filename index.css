@@ -29,6 +29,16 @@ body {
   border-radius: 5px;
 }
 
+.footerDiv a {
+  text-decoration: none;
+  color: red;
+}
+
+.footerDiv a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
 .boton_personalizado {
   text-decoration: none;
   padding: 10px;
