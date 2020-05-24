@@ -20,6 +20,7 @@ body {
 
 .footerDiv {
   bottom: 0;
+  width: 100%;
   position: fixed;
   text-align: center;
   background-color: rgb(182, 79, 28);
