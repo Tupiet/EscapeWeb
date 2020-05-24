@@ -36,7 +36,7 @@ body {
 
 .footerDiv a:hover {
   color: black;
-  transition: 0.5s;
+  transition: 2s;
 }
 
 .boton_personalizado {
