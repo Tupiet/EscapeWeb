@@ -19,7 +19,7 @@ body {
 }
 
 #footerDiv {
-  float: bottom;
+  bottom: 0;
 }
 
 .boton_personalizado {
