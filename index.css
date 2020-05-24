@@ -31,7 +31,7 @@ body {
 
 .footerDiv a {
   text-decoration: none;
-  color: red;
+  color: rgb(199, 0, 0);
 }
 
 .footerDiv a:hover {
