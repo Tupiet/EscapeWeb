@@ -39,6 +39,10 @@ body {
   transition: 2s;
 }
 
+.footerDiv a:not(hover) {
+  transition: 2s;
+}
+
 .boton_personalizado {
   text-decoration: none;
   padding: 10px;
