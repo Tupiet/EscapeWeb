@@ -19,10 +19,10 @@ body {
 }
 
 .footerDiv {
-  bottom: 5%;
-  left: 5%;
-  right: 5%;
-  width: 90%;
+  bottom: 2%;
+  left: 2%;
+  right: 2%;
+  width: 96%;
   position: fixed;
   text-align: center;
   background-color: rgb(182, 79, 28);
