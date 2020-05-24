@@ -19,9 +19,8 @@ body {
 }
 
 .footerDiv {
-  bottom: 0;
+  bottom: 2px;
   left: 0;
-  padding-bottom: 2px;
   width: 100%;
   position: fixed;
   text-align: center;
