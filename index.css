@@ -18,6 +18,10 @@ body {
   display: none;
 }
 
+#footerDiv {
+  float: bottom;
+}
+
 .boton_personalizado {
   text-decoration: none;
   padding: 10px;
