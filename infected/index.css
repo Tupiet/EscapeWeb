@@ -33,6 +33,10 @@ body {
   transition: 2s;
 }
 
+.footerDiv a:not(hover) {
+  transition: 2s;
+}
+
 #virusAlert {
   text-align: center;
   border-style: solid;
