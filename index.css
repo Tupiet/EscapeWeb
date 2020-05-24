@@ -20,6 +20,7 @@ body {
 
 #footerDiv {
   bottom: 0;
+  position: fixed;
 }
 
 .boton_personalizado {
