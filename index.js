@@ -38,3 +38,5 @@ function move() {
     }
   }
 }
+
+desencripted.onload = move();
