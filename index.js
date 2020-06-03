@@ -30,6 +30,7 @@ function move() {
       if (width >= 100) {
         clearInterval(id);
         i = 0;
+        elem.innerHTML = '¡ES LA HORA!';
       } else {
         width++;
         elem.style.width = width + "%";
