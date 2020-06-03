@@ -33,7 +33,7 @@ function move() {
         clearInterval(id);
         i = 0;
         bar.style.display = "none";
-        completeText.style.display = "inline"
+        completeText.style.display = "inline-block"
       } else {
         width++;
         elem.style.width = width + "%";
