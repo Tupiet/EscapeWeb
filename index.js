@@ -37,7 +37,7 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
-        if (widht == 30) {
+        if (width == 30) {
           chargingText.innerHTML = "Comprobando...";
         }
       }
