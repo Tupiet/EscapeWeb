@@ -18,6 +18,10 @@ body {
   display: none;
 }
 
+#desencripted {
+  display: none;
+}
+
 .footerDiv {
   bottom: 2%;
   left: 1%;
