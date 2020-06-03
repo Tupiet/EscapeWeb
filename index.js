@@ -12,8 +12,7 @@ function finalPassword() {
   var desencripted = document.getElementById("desencripted");
 
   if (inputEnter.value == "a4k3ngh534nvgk3kjn4343r4rre") {
-    welcome.style.display = "none";
-    desencripted.style.display = "inline";
+    window.open("../complete")
 
   }
 }
