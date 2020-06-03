@@ -25,9 +25,7 @@ body {
 #myProgress {
   width: 100%;
   background-color: #ddd;
-  top: 50%;
-  position: relative;
-  transform: translateY(50%);
+  padding-top: 50%;
 }
 
 #myBar {
