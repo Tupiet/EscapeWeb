@@ -25,6 +25,7 @@ body {
 #myProgress {
   width: 100%;
   background-color: #ddd;
+  top: 50%;
 }
 
 #myBar {
