@@ -22,6 +22,17 @@ body {
   display: none;
 }
 
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
 .footerDiv {
   bottom: 2%;
   left: 1%;
