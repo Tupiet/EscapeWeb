@@ -19,9 +19,8 @@ function finalPassword() {
   }
 }
 
-var i = 0;
-
 function move() {
+  var i = 0;
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("myBar");
