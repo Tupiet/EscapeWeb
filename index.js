@@ -39,4 +39,5 @@ function move() {
   }
 }
 
+var desencripted = document.getElementById("desencripted");
 desencripted.onload = move();
