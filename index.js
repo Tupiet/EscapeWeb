@@ -37,8 +37,14 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
-        if (width == 30) {
-          chargingText.innerHTML = "Comprobando...";
+        if (width == 25) {
+          chargingText.innerHTML = "Verificando...";
+        }
+        if (width == 50) {
+          chargingText.innerHTML = "Desactivando...";
+        }
+        if (width == 75) {
+          chargingText.innerHTML = "Eliminando registro...";
         }
       }
     }
