@@ -26,6 +26,8 @@ body {
   width: 100%;
   background-color: #ddd;
   top: 50%;
+  position: relative;
+  transform: translateY(-50%);
 }
 
 #myBar {
