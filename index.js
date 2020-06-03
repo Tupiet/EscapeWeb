@@ -38,5 +38,3 @@ function move() {
     }
   }
 }
-
-document.getElementById("desencripted").onload = move();
