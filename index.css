@@ -33,6 +33,10 @@ body {
   background-color: #4CAF50;
 }
 
+#completeText {
+  display: none;
+}
+
 .footerDiv {
   bottom: 2%;
   left: 1%;
