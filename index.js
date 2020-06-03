@@ -8,9 +8,11 @@ function displayStart() {
 
 function finalPassword() {
   var inputEnter = document.getElementById("finalTextPass");
+  var welcome = document.getElementById("welcome");
 
   if (inputEnter.value == "a4k3ngh534nvgk3kjn4343r4rre") {
     alert("Clave correcta.");
+    welcome.style.display = "none";
 
   }
 }
