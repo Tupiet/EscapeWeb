@@ -24,6 +24,7 @@ function move() {
     var elem = document.getElementById("myBar");
     var realDiv = document.getElementById("realDiv");
     var completeText = document.getElementById("completeText");
+    var chargingText = document.getElementById("chargingText");
     var width = 1;
     var id = setInterval(frame, 100);
 
@@ -36,6 +37,9 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
+        if (widht == 30) {
+          chargingText = "Comprobando..."
+        }
       }
     }
   }
