@@ -1,4 +1,5 @@
-var end = new Date('June 7, 2020 17:00:00 GMT+01:00');
+// 5:00 PM en horario España
+var end = new Date('June 7, 2020 16:00:00 GMT+01:00');
 
 var _second = 1000;
 var _minute = _second * 60;
