@@ -1,4 +1,4 @@
-var end = new Date('October 31, 2020 12:00:00 GMT+01:00');
+var end = new Date('June 7, 2020 17:00:00 GMT+01:00');
 
 var _second = 1000;
 var _minute = _second * 60;
