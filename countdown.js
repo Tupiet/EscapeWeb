@@ -21,10 +21,26 @@ function showRemaining() {
   var minutes = Math.floor((distance % _hour) / _minute);
   var seconds = Math.floor((distance % _minute) / _second);
 
-  document.getElementById('countdown').innerHTML = days + ' días, ';
-  document.getElementById('countdown').innerHTML += hours + ' horas, ';
-  document.getElementById('countdown').innerHTML += minutes + ' minutos, ';
-  document.getElementById('countdown').innerHTML += seconds + ' segundos';
+  if (days == 1) {
+    document.getElementById('countdown').innerHTML = days + ' día, ';
+  } else {
+    document.getElementById('countdown').innerHTML = days + ' días, ';
+  }
+  if (hours == 1) {
+    document.getElementById('countdown').innerHTML += hours + ' hora, ';
+  } else {
+    document.getElementById('countdown').innerHTML += hours + ' horas, ';
+  }
+  if (minutes == 1) {
+    document.getElementById('countdown').innerHTML += minutes + ' minuto, ';
+  } else {
+    document.getElementById('countdown').innerHTML += minutes + ' minutos, ';
+  }
+  if (seconds == 1) {
+    document.getElementById('countdown').innerHTML += seconds + ' segundo';
+  } else {
+    document.getElementById('countdown').innerHTML += seconds + ' segundos';
+  }
 }
 
 timer = setInterval(showRemaining, 1000);
