@@ -13,7 +13,8 @@ function finalPassword() {
 
   if (inputEnter.value == "a4k3ngh534nvgk3kjn4343r4rre") {
     window.open("../complete")
-
+  } else {
+    alert("Clave incorrecta.");
   }
 }
 
