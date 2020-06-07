@@ -1,21 +1,34 @@
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <script type="text/javascript" src="countdown.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <title>Próximamente</title>
+
+  <title>Escape Web</title>
 </head>
 
-<body style="background-color: rgb(26, 26, 26);">
-  <div>
-    <h1 style="color: white; font-family: 'Itim', cursive; text-align: center; font-size: 100px;">Escape Web</h1>
-    <div id="countdown" style="color: white; font-family: 'Itim', cursive; text-align: center; font-size: 50px">
-
-    </div>
+<body>
+  <div id="welcome">
+    <h1>Bienvenido</h1>
+    <p>Le damos una cordial bienvenida a esta nueva iniciativa, llamada Escape Web.</p>
+    <p>Tenga en cuenta que todo lo que aquí aparecerá es <b>ficticio</b>.</p>
+    <p>Deseamos de todo corazón que pueda pasar un buen rato haciendo este "juego".</p>
+    <p>Además, ¡es ideal para jugar en grupo!</p>
+    <p>Cómo consejo, recomendamos jugarlo desde ordenador.</p>
+    <p>Dicho esto, ¿empezamos?</p>
+    <br />
+    <input type="button" name="buttonInit" value="¡Empezar!" onclick="displayStart()" class="boton_personalizado">
   </div>
+  <div id="start">
+    <h1>¡Felicidades!</h1>
+    <p>Ha sido usted declarado ganador de este sorteo aleatorio.</p>
+    <p>Por favor, pulse <b>el botón</b> para recibir su premio.</p>
+    <br />
+    <a class="boton_personalizado" href="/infected">¡Recibir premio!</a>
+  </div>
+
+
 </body>
 
 </html>
